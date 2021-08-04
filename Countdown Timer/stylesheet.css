@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-image: url("https://images5.alphacoders.com/742/thumb-1920-742578.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    flex-direction: column
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bigtext {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 1rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
